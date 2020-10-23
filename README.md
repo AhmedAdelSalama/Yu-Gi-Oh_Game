@@ -8,11 +8,11 @@
 
 - Start:  
 ![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture1.png?raw=true)  
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture2.jpg?raw=true)  
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture3.jpg?raw=true)  
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture4.jpg?raw=true)  
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture5.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture2.png?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture3.png?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture4.png?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture5.png?raw=true)  
 - When you press solve:
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture6.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture6.png?raw=true)  
 - When you are done:
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture7.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/res/Picture7.png?raw=true)  
