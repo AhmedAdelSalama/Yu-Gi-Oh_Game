@@ -7,12 +7,12 @@
 ## Sample Runs  
 
 - Start:  
-![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/image.jpg?raw=true)  
-![pic](res/picture2.png)  
-![pic](res/picture3.png)  
-![pic](res/picture4.png)  
-![pic](res/picture5.png)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture1.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture2.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture3.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture4.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture5.jpg?raw=true)  
 - When you press solve:
-![pic](res/picture6.png)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture6.jpg?raw=true)  
 - When you are done:
-![pic](res/picture7.png)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/picture7.jpg?raw=true)  
