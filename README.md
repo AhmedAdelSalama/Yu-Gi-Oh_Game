@@ -7,7 +7,7 @@
 ## Sample Runs  
 
 - Start:  
-![pic]((https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/image.jpg?raw=true)  
+![pic](https://github.com/AhmedAdelSalama/Yu-Gi-Oh_Game/blob/main/image.jpg?raw=true)  
 ![pic](res/picture2.png)  
 ![pic](res/picture3.png)  
 ![pic](res/picture4.png)  
