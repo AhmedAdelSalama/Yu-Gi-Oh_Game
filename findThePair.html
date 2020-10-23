@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+	<link rel="stylesheet" type="text/css" href="pairGame.css">
+</head>
+<body>
+	
+	<h1 class="contents" id="header">Yu-Gi-Oh<span class="subHead">Memory Game</span><div id="sub" class="subHead">Help Yu-Gi to find the pair cards</div></h1>
+	
+	<table class="contents">
+		<tbody>
+			<tr valign="top">
+				<td>
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img class="cards" id="0" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="1" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="2" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="3" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="4" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="5" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="cards" id="6" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="7" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="8" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="9" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="10" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="11" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="cards" id="12" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="13" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="14" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="15" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="16" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="17" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="cards" id="18" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="19" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="20" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="21" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="22" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="23" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="cards" id="24" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="25" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="26" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="27" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="28" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="29" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="cards" id="30" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="31" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="32" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="33" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="34" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+								<td>
+									<img class="cards" id="35" src="https://t14.deviantart.net/NeKLZ6pUEkGI5hFh28YRa7P4pYQ=/fit-in/300x900/filters:no_upscale():origin()/pre10/749c/th/pre/f/2013/103/c/a/yu_gi_oh____duel_monsters_back_card_by_biohazard20_by_tennosei_no_hime-d61m57c.jpg">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td width="30"></td>
+				<td>
+					<div>
+						<button id="strt" class="button">Start</button>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div>
+						<button class="button" id="nGame">New game</button>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div>
+						<strong>Time: 		</strong> 	
+						<label id="timer"><span id="min">00</span>:<span id="sec">00</span></label>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div>
+						<button class="button" id="solve">Solve</button>
+					</div>
+					<p class="note">solve will uncover all cards</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+	color: white;
+}
+img{
+	width: 70px;
+	height: 90px;
+}
+.button{
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	background: url("https://wallpapercave.com/wp/wp2631973.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.note{
+		font-size: 14px;
+}
+#timer{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*h1{
+	background: url("https://i1.wp.com/richtopia.com/wp-content/uploads/2016/02/analytical-thinking-and-problem-solving.jpg?fit=796%2C461&ssl=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.contents{
+	margin: 0 auto;
+}
+#header{
+	color: white;
+	margin-left:26.3%;
+	width: 32%;
+	height: 50px;
+	background: url("https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_900/dr4v5dpl93gi1lbgtnyy");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 1%;
+	/*text-align: center;*/
+}
+body{
+	background: url("https://store-images.s-microsoft.com/image/apps.42818.65935711642560027.0a5508b2-97cc-454e-bc78-fca0b9474931.eed4b951-b090-41e0-83a9-2af5b16761e4?mode=scale&q=90&h=1080&w=1920&format=jpg");
+	background-size: cover;
+}
+.subHead{
+	font-size: 10px;
+	font-weight: 200;
+	padding-left: 1%;	
+}
+#sub{
+	font-size: 12px;
+}
